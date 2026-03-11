@@ -10,17 +10,17 @@ const Footer = () => {
   return (
     <footer className="bg-slate-950 border-t border-white/5 pt-16 pb-8 text-slate-400 relative overflow-hidden">
       <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent"></div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
           className="grid md:grid-cols-4 gap-12 mb-16"
         >
-          
+
           {/* Brand Col */}
           <div className="md:col-span-2">
             <a href="#" className="font-bold text-3xl tracking-tighter text-white inline-block mb-6 flex items-center gap-2">
@@ -34,12 +34,10 @@ const Footer = () => {
               <a href="mailto:vanishrishastri0@gmail.com" className="w-12 h-12 rounded-full border border-slate-700 bg-slate-900/50 flex items-center justify-center hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all hover:-translate-y-1">
                 <Mail size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-slate-700 bg-slate-900/50 flex items-center justify-center hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all hover:-translate-y-1">
+              <a href="www.linkedin.com/in/vanishree-shastri-18709325b" className="w-12 h-12 rounded-full border border-slate-700 bg-slate-900/50 flex items-center justify-center hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all hover:-translate-y-1">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-slate-700 bg-slate-900/50 flex items-center justify-center hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all hover:-translate-y-1">
-                <Github size={20} />
-              </a>
+
             </div>
           </div>
 
@@ -84,11 +82,11 @@ const Footer = () => {
           <p className="text-sm font-medium text-slate-500">
             © {new Date().getFullYear()} Vanishree Shastri. All rights reserved.
           </p>
-          <button 
+          <button
             onClick={scrollToTop}
             className="flex items-center gap-3 text-sm font-bold text-slate-400 hover:text-cyan-400 transition-colors group"
           >
-            BACK TO TOP 
+            BACK TO TOP
             <div className="w-10 h-10 rounded-full border border-slate-700 bg-slate-900/50 flex items-center justify-center group-hover:border-cyan-400 group-hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all">
               <ArrowUp size={18} className="group-hover:-translate-y-1 transition-transform" />
             </div>
