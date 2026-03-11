@@ -26,7 +26,7 @@ const Hero = () => {
             }}
             className="flex-1 text-center md:text-left"
           >
-            <motion.div variants={{ hidden: { opacity: 0, scale: 0.8 }, visible: { opacity: 1, scale: 1 } }} className="inline-block px-4 py-2 rounded-full bg-cyan-950/50 flex items-center w-fit border border-cyan-500/30 text-cyan-400 font-medium text-sm mb-6 shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <motion.div variants={{ hidden: { opacity: 0, scale: 0.8 }, visible: { opacity: 1, scale: 1 } }} className="inline-block px-4 py-2 rounded-full bg-cyan-950/50 flex items-center w-fit border border-cyan-500/30 text-cyan-400 font-medium text-sm mb-6 shadow-[0_0_15px_rgba(6,182,212,0.2)]" style={{ justifySelf: 'center' }}>
               <span className="relative flex h-2 w-2 inline-block mr-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
